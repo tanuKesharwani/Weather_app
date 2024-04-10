@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Container for the Weather App */
+.App {
+    margin-top:90px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Set background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.app-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form style */
+.weather-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-city,
+.input-country {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .submit-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Weather details style */
+.weather-details {
+    margin-top: 20px;
+}
+
+.weather-city {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.weather-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.weather-temperature,
+.weather-humidity,
+.weather-wind {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
